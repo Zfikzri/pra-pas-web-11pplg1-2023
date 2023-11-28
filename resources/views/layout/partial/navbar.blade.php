@@ -12,9 +12,12 @@
         <li class="nav-item">
           <a class="nav-link" href="/dokter/all2">Konsultasi Dokter Hewan</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pengadopsi/all3">Daftar Pengadopsi</a>
+        </li>
       </ul>
       <span class="navbar-text">
-        TOKO ADOPSI HEWAN 24/7
+        TOKO ADOPSI HEWAN PAK WISNU
       </span>
     </div>
   </div>

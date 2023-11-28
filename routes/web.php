@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HewanController;
 use App\Http\Controllers\DokterController;
+use App\Http\Controllers\PengadopsiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,7 @@ Route::get('/hewan/detail/{hewan}', [HewanController::class, 'show']);
 Route::get('/dokter/all2', [DokterController::class, 'index']);
 
 Route::get('/dokter/detail/{dokter}', [DokterController::class, 'show']);
+
+Route::get('/pengadopsi/all3', [PengadopsiController::class, 'index']);
+
+Route::get('/pengadopsi/detail/{pengadopsi}', [PengadopsiController::class, 'show']);

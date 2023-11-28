@@ -1,0 +1,23 @@
+INSERT INTO hewans (nama,jumlah,makanan,tanggal_lahir)
+VALUES
+("Kucing",7,"Ikan",2020-01-01),
+("Anjing",5,"Tulang",2020-02-02),
+("Burung",6,"Biji Bijian",2020-03-03),
+("Capybara",3,"Rerumputan",2020-04-04),
+("Singa",1,"Daging",2020-05-05),
+
+INSERT INTO dokters (nama,nomor_hp,askot,tanggal_lahir) VALUES
+("Dr.Wisnu",12345,"Jakarta",1990-01-01),
+("Dr.Alexx",123456,"Medan",1990-01-01),
+("Dr.Panji",1234567,"Semarang",1990-01-01),
+("Dr.Adam",12345678,"Kudus",1990-01-01),
+("Dr.Pandu",123456789,"Padang",1990-01-01),
+
+
+INSERT INTO pengadopsis (nama, umur, gender, hewan, tanggal_adopsi, tanggal_lahir)
+VALUES
+("Seno",17,"Laki-Laki",Singa,2023-01-01,2007-01-01),
+("Fuad",16,"Laki-Laki",Burung,2023-02-02,2007-02-02),
+("Arya",17,"Laki-Laki",Capybara,2023-03-03,2007-03-03),
+("Pandu",17,"Laki-Laki",Kucing,2023-04-04,2007-04-04),
+("Daffa",17,"Laki-Laki",Singa,2023-05-05,2007-05-05),
